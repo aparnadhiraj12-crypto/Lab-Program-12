@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact - ShopKart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">ShopKart</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart <span class="cart-count">0</span></a>
+      <a href="login.html">Login</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="form-card">
+      <h1>Contact Us</h1>
+      <p>Have a question? Send us a message.</p>
+
+      <form id="contactForm">
+        <input type="text" id="contactName"
+               placeholder="Your Name" required>
+        <input type="email" id="contactEmail"
+               placeholder="Your Email" required>
+        <textarea id="contactMessage"
+                  placeholder="Your Message" required></textarea>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+
+      <p id="contactStatus" role="status"></p>
+      <p>Email: support@shopkart.example</p>
+    </div>
+  </main>
+
+  <footer>© 2026 ShopKart</footer>
+  <script src="script.js"></script>
+</body>
+</html>

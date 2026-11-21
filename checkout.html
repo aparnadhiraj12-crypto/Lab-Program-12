@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checkout - ShopKart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">ShopKart</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart <span class="cart-count">0</span></a>
+      <a href="login.html">Login</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Checkout</h1>
+    <div class="form-card">
+      <h2>Delivery Information</h2>
+      <form id="checkoutForm">
+        <input type="text" id="fullName"
+               placeholder="Full Name" required>
+        <input type="email" id="email"
+               placeholder="Email Address" required>
+        <input type="tel" id="phone"
+               placeholder="Phone Number"
+               pattern="[0-9]{10}" required>
+        <textarea id="address" placeholder="Delivery Address"
+                  required></textarea>
+        <select id="payment" required>
+          <option value="">Select Payment Method</option>
+          <option value="cod">Cash on Delivery (Demo)</option>
+        </select>
+        <h3 id="checkoutTotal"></h3>
+        <button type="submit" class="btn">Place Order</button>
+      </form>
+      <p id="orderMessage" role="status"></p>
+    </div>
+  </main>
+
+  <footer>© 2026 ShopKart</footer>
+  <script src="script.js"></script>
+</body>
+</html>

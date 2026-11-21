@@ -29,7 +29,7 @@ function showMessage(id, text, success = true) {
 // Load products from XML
 async function loadProducts() {
   try {
-    const response = await fetch("products.xml");
+    const response = await fetch("/products.xml");
     if (!response.ok) throw new Error("XML file not found");
 
     const xmlText = await response.text();

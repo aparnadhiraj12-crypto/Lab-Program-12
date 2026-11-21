@@ -1,0 +1,75 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product>
+    <id>1</id>
+    <name>Wireless Headphones</name>
+    <category>Electronics</category>
+    <price>1499</price>
+    <image>https://placehold.co/500x400/e0e7ff/1e40af?text=Headphones</image>
+    <description>Comfortable wireless headphones with clear sound.</description>
+  </product>
+
+  <product>
+    <id>2</id>
+    <name>Smart Watch</name>
+    <category>Electronics</category>
+    <price>2499</price>
+    <image>https://placehold.co/500x400/dbeafe/1e40af?text=Smart+Watch</image>
+    <description>Smart watch with fitness and activity tracking.</description>
+  </product>
+
+  <product>
+    <id>3</id>
+    <name>Casual T-Shirt</name>
+    <category>Fashion</category>
+    <price>599</price>
+    <image>https://placehold.co/500x400/fce7f3/9d174d?text=T-Shirt</image>
+    <description>Soft cotton casual T-shirt for everyday wear.</description>
+  </product>
+
+  <product>
+    <id>4</id>
+    <name>Running Shoes</name>
+    <category>Fashion</category>
+    <price>1999</price>
+    <image>https://placehold.co/500x400/fef3c7/92400e?text=Running+Shoes</image>
+    <description>Lightweight running shoes with cushioned soles.</description>
+  </product>
+
+  <product>
+    <id>5</id>
+    <name>Travel Backpack</name>
+    <category>Accessories</category>
+    <price>899</price>
+    <image>https://placehold.co/500x400/d1fae5/065f46?text=Backpack</image>
+    <description>Spacious backpack suitable for college and travel.</description>
+  </product>
+
+  <product>
+    <id>6</id>
+    <name>Bluetooth Speaker</name>
+    <category>Electronics</category>
+    <price>1299</price>
+    <image>https://placehold.co/500x400/ede9fe/5b21b6?text=Speaker</image>
+    <description>Portable Bluetooth speaker with powerful audio.</description>
+  </product>
+
+  <product>
+    <id>7</id>
+    <name>Stylish Sunglasses</name>
+    <category>Accessories</category>
+    <price>699</price>
+    <image>https://placehold.co/500x400/fee2e2/991b1b?text=Sunglasses</image>
+    <description>Modern sunglasses with UV protection.</description>
+  </product>
+
+  <product>
+    <id>8</id>
+    <name>Classic Wrist Watch</name>
+    <category>Accessories</category>
+    <price>1799</price>
+    <image>https://placehold.co/500x400/e2e8f0/334155?text=Wrist+Watch</image>
+    <description>Elegant wrist watch with a timeless design.</description>
+  </product>
+</products>

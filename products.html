@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Products - ShopKart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">ShopKart</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart <span class="cart-count">0</span></a>
+      <a href="login.html">Login</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Our Products</h1>
+    <p>Explore our latest collection.</p>
+
+    <input type="search" id="searchInput"
+           placeholder="Search products...">
+
+    <select id="categoryFilter">
+      <option value="All">All Categories</option>
+      <option value="Electronics">Electronics</option>
+      <option value="Fashion">Fashion</option>
+      <option value="Accessories">Accessories</option>
+    </select>
+
+    <div id="productList" class="product-grid"></div>
+  </main>
+
+  <footer>© 2026 ShopKart</footer>
+  <script src="script.js"></script>
+</body>
+</html>
